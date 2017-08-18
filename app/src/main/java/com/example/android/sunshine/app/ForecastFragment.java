@@ -157,7 +157,7 @@ public class ForecastFragment extends Fragment
         /**
          * Prepare the weather high/lows for presentation.
          */
-        private String formatHighLows(double high, double low, String unitType) 
+        private String formatHighLows(double high, double low, String unitType)
             {
             if (unitType.equals(getString(R.string.pref_units_imperial)))
                 {
